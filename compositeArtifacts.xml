@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?compositeArtifactRepository version='1.0.0'?>
+<repository name='Nasdanika'
+    type='org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository' version='1.0.0'>
+  <properties size='1'>
+    <property name='p2.timestamp' value='1486567105'/>
+  </properties>
+  <children size='13'>
+    <child location='../maven-osgi'/>
+    <child location='../third-party/org.nasdanika.third-party.repository/target/repository'/>
+    <child location='../server/repository'/>
+    <child location='../products/config/repository'/>
+    <child location='../products/codegen/repository'/>
+    <child location='../products/codegen-ecore/repository'/>
+    <child location='../products/html/repository'/>
+    <child location='../products/presentation/repository'/>
+    <child location='../products/sca/repository'/>
+    <child location='../products/story/repository'/>
+    <child location='../products/webtest/repository'/>
+    <child location='../products/webtest-model/repository'/>
+    <child location='../products/workspace-wizard/repository'/>        
+  </children>
+</repository>
